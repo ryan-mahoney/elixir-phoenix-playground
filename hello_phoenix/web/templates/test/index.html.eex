@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <h2>Hello World</h2>
+  <%
+      require Logger
+      Logger.info "Some Logic in a template..."
+      test_view_function
+  %>
+</div>
